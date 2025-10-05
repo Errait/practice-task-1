@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    padding: 40px;
+}
+
+section {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    section {
+    margin-top: 40px;
+    }
+}
